@@ -2,53 +2,52 @@
 
 A simple Streamlit app to run a stock buy/wait predictor and visualize technical indicators.
 
-## Run locally
+## How to run
 
-Follow the steps below to run the app locally (zsh):
+You can run StockPulse after cloning the repository or downloading a ZIP from GitHub.
 
-1. Activate the venv (optional but recommended)
-
-If you already have the venv created at `.venv`, activate it:
+1. Clone the repository (SSH or HTTPS):
 
 ```bash
-source /Users/devarajanma/stock_pulse/.venv/bin/activate
+# SSH
+git clone git@github.com:yourusername/stockpulse.git
+
+# or HTTPS
+git clone https://github.com/yourusername/stockpulse.git
 ```
 
-If you don't have a venv and want to create one:
+Or download the repository as a ZIP from GitHub and extract it.
+
+2. Change into the project directory:
 
 ```bash
-cd /Users/devarajanma/stock_pulse
+cd stockpulse
+```
+
+3. Create and activate a Python virtual environment (recommended):
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-2. Install dependencies (if not already installed)
+4. Install dependencies:
 
 ```bash
-pip install -r /Users/devarajanma/stock_pulse/requirements.txt
+pip install -r requirements.txt
 ```
 
-(Or install specific packages:)
+5. Run the Streamlit app:
 
 ```bash
-pip install streamlit yfinance pandas numpy scikit-learn plotly
+streamlit run app.py
 ```
 
-3. Run the Streamlit app
+Then open your browser at:
 
-```bash
-streamlit run /Users/devarajanma/stock_pulse/app.py
 ```
-
-or explicitly via the venv Python:
-
-```bash
-/Users/devarajanma/stock_pulse/.venv/bin/python -m streamlit run /Users/devarajanma/stock_pulse/app.py
+http://localhost:8501
 ```
-
-4. Open the app in your browser
-
-- Visit: http://localhost:8501
 
 ## Troubleshooting
 
