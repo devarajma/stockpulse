@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+.pytest_cache/
+pip-log.txt
+
+# Streamlit local files
+.streamlit/
