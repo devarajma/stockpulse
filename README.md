@@ -6,7 +6,7 @@ A simple Streamlit app to run a stock buy/wait predictor and visualize technical
 
 Follow the steps below to run the app locally (zsh):
 
-1) Activate the venv (optional but recommended)
+1. Activate the venv (optional but recommended)
 
 If you already have the venv created at `.venv`, activate it:
 
@@ -22,7 +22,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-2) Install dependencies (if not already installed)
+2. Install dependencies (if not already installed)
 
 ```bash
 pip install -r /Users/devarajanma/stock_pulse/requirements.txt
@@ -34,7 +34,7 @@ pip install -r /Users/devarajanma/stock_pulse/requirements.txt
 pip install streamlit yfinance pandas numpy scikit-learn plotly
 ```
 
-3) Run the Streamlit app
+3. Run the Streamlit app
 
 ```bash
 streamlit run /Users/devarajanma/stock_pulse/app.py
@@ -46,7 +46,7 @@ or explicitly via the venv Python:
 /Users/devarajanma/stock_pulse/.venv/bin/python -m streamlit run /Users/devarajanma/stock_pulse/app.py
 ```
 
-4) Open the app in your browser
+4. Open the app in your browser
 
 - Visit: http://localhost:8501
 
