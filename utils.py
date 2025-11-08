@@ -39,11 +39,6 @@ def compute_final(ticker, horizon):
 
     raw_close = df['Close'].copy()
 
-    # Save properly (no extra index or ticker row)
-    # df.to_csv("AAPL_10.csv", index=False)
-    # print(df.head())
-
-
 
     def get_exp_preprocessing(df, alpha=0.9):
         edata = df.ewm(alpha=alpha).mean()
